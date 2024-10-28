@@ -240,7 +240,7 @@
                 "name": "Organized Religion",
                 "uniques": [
                     "[+1 Faith] from every [Shrine]",
-                    "[+1 Faith] from every [Temple]",
+                    "[+2 Faith] from every [Temple]",
                 ],
                 "row": 1,
                 "column": 2
@@ -248,7 +248,7 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "[Faith] cost of purchasing items in cities [-20]%",
+                    "[Faith] cost of purchasing items in cities [-25]%",
                 ],
                 "row": 1,
                 "column": 5
@@ -266,7 +266,8 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-                    "Gain a free [Pantheon] belief", "(if you founded a religion)"
+                    "Gain a free [Pantheon] belief", "(if you founded a religion)",
+		    "[+33]% [Culture] [in all cities with a world wonder]"	
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -275,7 +276,8 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "Gain a free [Enhancer] belief", "(if you founded a religion)"
+                    "Gain a free [Enhancer] belief", "(if you founded a religion)",
+		    "[-10]% Culture cost of adopting new Policies"	
                 ],
                 "requires": ["Free Religion"],
                 "row": 3,
@@ -284,7 +286,7 @@
             {
                 "name": "Piety Complete",
                 "uniques": [
-		"[+3 Culture] from every [Holy site]",
+		"[+4 Culture] from every [Holy site]",
 		"Free [Great Prophet] appears"
                 ]
             }
@@ -391,7 +393,7 @@
             {
                 "name": "Cultural Exchange",
                 "uniques": [
-                    "When declaring friendship, both parties gain a [15]% boost to great person generation"
+                    "When declaring friendship, both parties gain a [20]% boost to great person generation"
                 ],
                 "requires": ["Cultural Centers"],
                 "row": 2,
@@ -400,7 +402,7 @@
             {
                 "name": "Tourism Destination",
                 "uniques": [
-                    "[+1 Gold] from all [Culture] buildings"
+                    "[+2 Gold] from all [Culture] buildings"
                 ],
                 "requires": ["Cultural Centers", "Monumentality"],
                 "row": 2,
@@ -409,7 +411,8 @@
             {
                 "name": "Artistic Genius",
                 "uniques": [
-                    "Free [Great Artist] appears"
+                    "Free [Great Artist] appears",
+		    "[+20]% [Culture] from every [Museum]","[+20]% [Culture] from every [Opera House]","[+20]% [Culture] from every [Broadcast Tower]"	
                 ],
                 "requires": ["Cultural Exchange"],
                 "row": 3,
@@ -418,7 +421,8 @@
             {
                 "name": "Aesthetics Complete",
                 "uniques": [
-                    "Provides a [Garden] in your first [4] cities for free",
+                    "Free Social Policy",
+		    "[+50]% Golden Age length",	
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -754,7 +758,8 @@
             {
                 "name": "Autocracy Complete",
                 "uniques": [
-                    "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>"
+                    "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
+		    "[-10]% Culture cost of adopting new Policies"	
                 ]
             }
         ]
@@ -823,7 +828,8 @@
             {
                 "name": "Order Complete",
                 "uniques": [
-                    "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]"
+                    "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
+		    "[-10]% Culture cost of adopting new Policies"	
                 ]
             }
         ]
@@ -929,7 +935,8 @@
                 "name": "Freedom Complete",
                 "uniques": [
                     "Empire enters golden age",
-                    "Free Social Policy"
+                    "Free Social Policy",
+		    "[-10]% Culture cost of adopting new Policies"	
                 ]
             }
         ]
