@@ -438,7 +438,7 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["[+25]% [Gold] [in capital]"],
+        "uniques": ["[+25]% [Gold] [in capital]", "Defense bonus when embarked <for [All] units>"],
         "policies": [
             {
                 "name": "Mercenary Army",
